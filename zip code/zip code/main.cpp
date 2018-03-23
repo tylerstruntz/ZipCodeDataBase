@@ -29,8 +29,9 @@ struct Post
 
 void addRecord()
 {
-    fstream data;
-    data.open("asmall.csv", ios::out, ios::app);
+    ofstream data;
+    data.open("out.txt", ios::app);
+    
     
     Post *p;
     p = new Post;
@@ -48,11 +49,14 @@ void addRecord()
     
     cout <<"Enter longitude" << endl;
     cin >> p -> longitude;
-
+    
     cout <<"Enter latitude" << endl;
     cin >> p -> latitude;
     
     p -> next = NULL;
+    
+    data.write(reinterpret_cast<char*>(&p), sizeof(p));
+    data.close();
     
 }
 
@@ -61,3 +65,4 @@ int main()
     addRecord();
     return 0;
 }
+
