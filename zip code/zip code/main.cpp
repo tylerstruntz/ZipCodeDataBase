@@ -55,7 +55,7 @@ void addRecord()
     
     p -> next = NULL;
     
-    data.write(reinterpret_cast<char*>(&p), sizeof(p));
+    data.write(reinterpret_cast<char*>(p), sizeof(p));
     data.close();
     
 }
