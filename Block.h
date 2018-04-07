@@ -14,7 +14,7 @@ class Block
   public:
     record post[1000];
 
-    void array( int &num )
+    void array( )
     {
     	string end_of_file = "eof";
     	ifstream theFile;
@@ -59,7 +59,7 @@ class Block
 
         outFile.open("outdata.txt", ios::app|ios::ate);
 
-        for (int i = num ; i < num + 10; i++)
+        for (int i = 0; i < 15 ; i++)
         {
           outFile << post[i].zip << " " << post[i].city << " " << post[i].state << " " << post[i].county << " " << post[i].longitude << " " << post[i].latitude << endl;
         }
@@ -72,18 +72,12 @@ class Block
 
     //The Block node
 
-    class Node
+    struct Node
     {
-    public:
-      Block test[10];
-      int n;
+      Block test;
 
-    void pblock(){
-      n = 1;
-      for (int i = 0; i < 5; i++)
-      {
-        test[i].array(n);
-      }
+    void pblock( ){
+        test.array( );
     }
 
     };
