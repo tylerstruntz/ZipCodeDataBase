@@ -1,0 +1,51 @@
+
+544 Holtsville NY Suffolk -73.0451 40.8154
+1001 Agawam MA Hampden -72.6227 42.0702
+1002 Amherst MA Hampshire -72.4646 42.3671
+1003 Amherst MA Hampshire -72.5248 42.3919
+1004 Amherst MA Hampshire -72.5132 42.3845
+1005 Barre MA Worcester -72.1084 42.4097
+1007 Belchertown MA Hampshire -72.411 42.2751
+1008 Blandford MA Hampden -72.9361 42.1829
+1009 Bondsville MA Hampden -72.3405 42.2061
+1010 Brimfield MA Hampden -72.1885 42.1165
+544 Holtsville NY Suffolk -73.0451 40.8154
+1001 Agawam MA Hampden -72.6227 42.0702
+1002 Amherst MA Hampshire -72.4646 42.3671
+1003 Amherst MA Hampshire -72.5248 42.3919
+1004 Amherst MA Hampshire -72.5132 42.3845
+1005 Barre MA Worcester -72.1084 42.4097
+1007 Belchertown MA Hampshire -72.411 42.2751
+1008 Blandford MA Hampden -72.9361 42.1829
+1009 Bondsville MA Hampden -72.3405 42.2061
+1010 Brimfield MA Hampden -72.1885 42.1165
+544 Holtsville NY Suffolk -73.0451 40.8154
+1001 Agawam MA Hampden -72.6227 42.0702
+1002 Amherst MA Hampshire -72.4646 42.3671
+1003 Amherst MA Hampshire -72.5248 42.3919
+1004 Amherst MA Hampshire -72.5132 42.3845
+1005 Barre MA Worcester -72.1084 42.4097
+1007 Belchertown MA Hampshire -72.411 42.2751
+1008 Blandford MA Hampden -72.9361 42.1829
+1009 Bondsville MA Hampden -72.3405 42.2061
+1010 Brimfield MA Hampden -72.1885 42.1165
+544 Holtsville NY Suffolk -73.0451 40.8154
+1001 Agawam MA Hampden -72.6227 42.0702
+1002 Amherst MA Hampshire -72.4646 42.3671
+1003 Amherst MA Hampshire -72.5248 42.3919
+1004 Amherst MA Hampshire -72.5132 42.3845
+1005 Barre MA Worcester -72.1084 42.4097
+1007 Belchertown MA Hampshire -72.411 42.2751
+1008 Blandford MA Hampden -72.9361 42.1829
+1009 Bondsville MA Hampden -72.3405 42.2061
+1010 Brimfield MA Hampden -72.1885 42.1165
+544 Holtsville NY Suffolk -73.0451 40.8154
+1001 Agawam MA Hampden -72.6227 42.0702
+1002 Amherst MA Hampshire -72.4646 42.3671
+1003 Amherst MA Hampshire -72.5248 42.3919
+1004 Amherst MA Hampshire -72.5132 42.3845
+1005 Barre MA Worcester -72.1084 42.4097
+1007 Belchertown MA Hampshire -72.411 42.2751
+1008 Blandford MA Hampden -72.9361 42.1829
+1009 Bondsville MA Hampden -72.3405 42.2061
+1010 Brimfield MA Hampden -72.1885 42.1165
