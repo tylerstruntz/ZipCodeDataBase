@@ -4,6 +4,8 @@
 #include <cstdlib>
 #include <iostream>
 #include <string>
+#include <fstream>
+#include <ostream>
 #include "record.h"
 
 using namespace std;
@@ -12,13 +14,19 @@ class Block
 {
 
   public:
-    record post[1000];
+    record post[100];
+
+    string _zip[100];
+    string _city[100];
+    string _state[100];
+    string _county[100];
+    string _longitude[100];
+    string _latitude[100];
 
     void array( )
     {
     	string end_of_file = "eof";
     	ifstream theFile;
-    	ofstream outFile;
 
     	string zip;
       string city;
@@ -57,33 +65,53 @@ class Block
 
         theFile.close();
 
+
+         for (int i = 0; i < 10 ; i++)
+          {
+          _zip[i] = post[i].zip;
+          _city[i] = post[i].city;
+          _state[i] = post[i].state;
+          _county[i] = post[i].county;
+          _longitude[i] = post[i].longitude;
+          _latitude[i] = post[i].latitude;
+          }
+
+      }
+
+
+      void print(){
+        ofstream outFile;
         outFile.open("outdata.txt", ios::app|ios::ate);
 
-        for (int i = 0; i < 15 ; i++)
+        for (int i = 0; i < 10 ; i++)
         {
-          outFile << post[i].zip << " " << post[i].city << " " << post[i].state << " " << post[i].county << " " << post[i].longitude << " " << post[i].latitude << endl;
+           outFile << _zip[i] << " " << _city[i] << " " << _state[i] << " " << _county[i] << " " << _longitude[i] << " " << _latitude[i] << endl;
         }
 
         outFile.close();
-    	}
+      }
+
+
     };
 
 
 
     //The Block node
-
     struct Node
     {
-      Block test;
+      Block test[5];
 
-    void pblock( ){
-        test.array( );
-    }
+      void pblock( ){
+
+        test[1].array();
+        test[1].print();
+
+        test[2].array();
+        test[2].print();
+
+        }
 
     };
-
-
-
 
 #include "Block.cpp"
 #endif
