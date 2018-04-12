@@ -163,7 +163,7 @@ void Block::search_by_zipcode ( int zipcode )
       {
         if ( data[i].zip == zip )
         {
-          data[i] = '10';
+          data[i] = 10;
           for ( int y = i; y < upperbound; y++)
           {
             i + 1 = y;

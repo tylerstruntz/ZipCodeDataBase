@@ -10,7 +10,7 @@ using namespace std;
 
 namespace tyler
 {
-static const int blocksize = 5000
+static const int blocksize = 5000;
 template <class Item>
 class Block
 {
