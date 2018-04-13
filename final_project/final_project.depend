@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1523591607 source:c:\users\manda\documents\codeblocks\final_project\src\record.cpp
+	"Record.h"
+	<iostream>
+
+1523594342 c:\users\manda\documents\codeblocks\final_project\include\record.h
+	<iostream>
+	<string>
+	<fstream>
+	<ostream>
+
+1523593895 source:c:\users\manda\documents\codeblocks\final_project\main.cpp
+	<iostream>
+	<cstring>
+	<cstdlib>
+	<fstream>
+	<cctype>
+	<cstdio>
+	<string>
+	<stdio.h>
+	<sstream>
+	<vector>
+	<stdlib.h>
+	"Record.h"
+	"Block.h"
+	"HeaderRecord.h"
+
+1523591607 c:\users\manda\documents\codeblocks\final_project\include\block.h
+	<vector>
+	<fstream>
+	"Record.h"
+
+1523593771 source:c:\users\manda\documents\codeblocks\final_project\src\block.cpp
+	"Block.h"
+	"Record.h"
+	<vector>
+	<fstream>
+
+1523593771 source:c:\users\manda\documents\codeblocks\final_project\src\headerrecord.cpp
+	"HeaderRecord.h"
+	<iostream>
+
+1523593895 c:\users\manda\documents\codeblocks\final_project\include\headerrecord.h
+
